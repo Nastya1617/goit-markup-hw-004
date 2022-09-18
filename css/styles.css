@@ -114,12 +114,11 @@ body {
  padding-top: 94px;
 }
 .title-bg {
- background: #2F303A;
+ background: #C4C4C4;
  padding-top: 200px;
  padding-bottom: 200px;
-}
-.img-svg {
- height: 70px;
+ background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Img-title.jpg);
+ background-size: cover;
 }
 .title-h1 {
  font-weight: 900;
@@ -252,12 +251,13 @@ body {
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
  border-radius: 0px 0px 4px 4px;
 }
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
 .logo-svg {
  display: flex;
  align-items: center;
-}
-.logo-company {
- height: 60px;
 }
   /*logo-footer */
 .footer-container {
